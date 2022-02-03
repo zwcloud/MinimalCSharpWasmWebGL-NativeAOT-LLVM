@@ -3,6 +3,9 @@ a minimal example of C# wasm WebGL app based on NativeAOT-LLVM WebAssembly
 
 This example is ported from [timhutton/opengl-canvas-wasm](https://github.com/timhutton/opengl-canvas-wasm) based on SDL2 and OpenGLES 2.0.
 
+## Live demo
+https://zwcloud.github.io/MinimalCSharpWasmWebGL-NativeAOT-LLVM/
+
 ## Build
 ```
 dotnet publish -r browser-wasm -c Debug /p:TargetArchitecture=wasm --self-contained /p:PlatformTarget=AnyCPU /p:MSBuildEnableWorkloadResolver=false /p:EmccExtraArgs='Test.c -s WASM=1 -s USE_SDL=2'
@@ -17,4 +20,4 @@ Host a web-site under `.\bin\Debug\net6.0\browser-wasm\native\`. Open the html p
 
 ## Result
 
-![](Result.png)
+![](/result.png)
