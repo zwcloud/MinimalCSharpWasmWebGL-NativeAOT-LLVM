@@ -1,5 +1,5 @@
 # Minimal C# WebAssembly WebGL Example
-a minimal example of C# wasm WebGL app based on NativeAOT-LLVM WebAssembly
+a minimal example of C# wasm WebGL app based on [dotnet/runtimelab/NativeAOT-LLVM WebAssembly](https://github.com/dotnet/runtimelab/blob/feature/NativeAOT-LLVM/docs/using-nativeaot/compiling.md#webassembly).
 
 This example is ported from [timhutton/opengl-canvas-wasm](https://github.com/timhutton/opengl-canvas-wasm) based on SDL2 and OpenGLES 2.0.
 
