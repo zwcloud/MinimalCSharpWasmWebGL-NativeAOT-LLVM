@@ -11,7 +11,7 @@ https://zwcloud.github.io/MinimalCSharpWasmWebGL-NativeAOT-LLVM/
 dotnet publish -r browser-wasm -c Debug /p:TargetArchitecture=wasm --self-contained /p:PlatformTarget=AnyCPU /p:MSBuildEnableWorkloadResolver=false /p:EmccExtraArgs='WebGL.c main.c --js-library library_js.js -s USE_WEBGL2=1 -lGL'
 ```
 
-Note `Test.c` is passed as a `EmccExtraArgs` parameter to `emcc`.
+Note `WebGL.c` and `main.c` is passed as a `EmccExtraArgs` parameter to `emcc`.
 
 ## Run
 
