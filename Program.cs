@@ -12,7 +12,7 @@ namespace HelloWorld
         {
             Console.WriteLine("[Program.cs] Main");
             int value = NativeFunc();
-            Console.WriteLine("[Program.cs] NativeFunc returns {0}", value);
+            Console.WriteLine("[Program.cs] NativeFunc returns {0}", value); 
         }
     }
 }
